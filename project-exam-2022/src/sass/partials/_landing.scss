@@ -1,0 +1,144 @@
+.logo--white {
+  width: 120px;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+/* CAROUSEL */
+.carousel__img {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* TABS */
+// total tabs container
+.tabs__container {
+  // posisjon og størrelse
+  width: 300px;
+  min-height: 300px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -150px;
+
+  // utseende
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 25px;
+  box-shadow: 1px 1px 5px $color-dark;
+}
+.form__content {
+  margin-top: 50px;
+}
+// tabs buttons
+.btn--transparent {
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.nav-tabs .nav-link {
+  width: 75px;
+  font-size: 16px;
+}
+
+.nav-tabs {
+  border-bottom: none !important;
+  color: $color-white;
+}
+
+#tab__title-tab-login,
+#tab__title-tab-register {
+  padding: 20px 10px 5px 10px;
+  color: $color-white !important;
+
+  opacity: 0.6;
+  border: none;
+  background-color: transparent;
+}
+
+#tab__title-tab-login:hover,
+#tab__title-tab-register:hover {
+  border-bottom: 2px solid $color-white;
+}
+
+#tab__title-tab-login.active,
+#tab__title-tab-register.active {
+  border-bottom: 2px solid $color-white;
+  opacity: 1;
+}
+
+// Form login/register
+.form__control {
+  width: 200px;
+  margin-left: 50px;
+  border-radius: 15px;
+  border: 0.1px solid $color-white;
+  opacity: 0.6;
+}
+
+.form__group {
+  margin-bottom: 20px;
+  height: 20px;
+}
+
+input {
+  padding-left: 20px;
+  height: 30px;
+}
+
+input::placeholder {
+  color: $color-dark;
+  font-size: 14px;
+}
+
+.field input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.btn--primary {
+  background-image: linear-gradient(
+    to right,
+    #9a0680 0%,
+    #79018c 51%,
+    #4c0070 100%
+  );
+}
+
+.btn--primary {
+  color: $color-white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  width: 200px;
+  height: 30px;
+  margin-left: 50px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 15px;
+  transition: 0.5s;
+  background-size: 200% auto;
+}
+
+.btn--primary:hover {
+  background-position: right center;
+  text-decoration: none;
+}
+
+.form__comment {
+  text-align: center;
+  color: $color-white;
+  margin-top: 10px;
+}
+
+.error {
+  text-align: center;
+  color: $color-white;
+  padding: 5px;
+  background-color: rgba($color-primary, 0.3);
+  width: 200px;
+  margin-left: 50px;
+}

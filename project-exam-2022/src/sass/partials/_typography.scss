@@ -1,0 +1,25 @@
+h1 {
+  font-size: 32px !important;
+  font-weight: 600 !important;
+}
+
+h2 {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+
+h3 {
+  font-size: 18px !important;
+  font-weight: 300 !important;
+}
+
+p {
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 0 !important;
+}
+
+.footer__information a {
+  text-decoration: none !important;
+  color: $color-white !important;
+}
